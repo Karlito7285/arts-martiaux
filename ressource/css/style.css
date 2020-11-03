@@ -1,0 +1,92 @@
+/*DOCUMENT INFORMATION
+    -Document: art martiaux theme
+    -Version : 1.0.0
+    -Author : Karl
+*/
+
+/*COLORS
+    -Defaut body text #fff
+    -h1 : black
+    -h2 : black
+    -h3
+
+    -button 
+    -button : hover
+
+    -border : #c82f0e
+*/
+
+/*FONTS
+    -Defaut : 'Architects Daughter', cursive;
+    -Subtitle
+    -h1 : 'Permanent Marker', cursive
+*/
+
+/*CSS DIRECTORY
+    1 =CLOBAL
+    2 =HEADER
+*/
+
+/*GLOBAL
+======================================*/
+html{
+    background-color: #fff;
+}
+
+
+/*HEADER
+=====================================*/
+header{
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.4), rgb(0, 0, 0, 0.2)), url(../image/kick-4606745__340.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    text-align: center;
+}
+h2{
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+}
+p{
+    font-family: 'Architects Daughter', cursive;
+}
+.title{
+    background-color: #c82f0e;
+    border-radius: 50%;
+}
+.texttitle{
+    position: absolute;
+    left: 0%;
+    top: 20%;
+}
+.silhouette{
+    height: 40%;
+    width: auto;
+}
+/*ART MARTIAUX======================================*/
+
+.arts-martiaux{
+    background-color:#635f5e ;
+
+}
+.image-art{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+.martial-text{
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 0%;
+}
