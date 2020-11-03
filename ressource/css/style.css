@@ -32,6 +32,20 @@
 html{
     background-color: #fff;
 }
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    text-align: center;
+}
+h2{
+    font-family: 'Architects Daughter', cursive;
+    color:#fff;
+    text-align: center;
+    margin-left: 100px;
+}
+p{
+    font-family: 'Architects Daughter', cursive;
+}
 
 
 /*HEADER
@@ -43,18 +57,7 @@ header{
     background-size: cover;
     color: #fff;
 }
-h1{
-    font-family: 'Permanent Marker', cursive;
-    color: black;
-    text-align: center;
-}
-h2{
-    font-family: 'Architects Daughter', cursive;
-    color: black;
-}
-p{
-    font-family: 'Architects Daughter', cursive;
-}
+
 .title{
     background-color: #c82f0e;
     border-radius: 50%;
@@ -75,18 +78,17 @@ p{
 
 }
 .image-art{
-    display: inline-block;
     position: relative;
-    width: 50%;
 }
 .martial-text{
     background: rgba(0, 0, 0, 0.1);
     z-index: 1;
     position: absolute;
-    text-align: center;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 30%;
-    width: 0%;
+    text-align: left;
+    bottom: 80%;
+}
+/*CONTACT=============================================*/
+
+.contact{
+    background-color: #635f5e;
 }
