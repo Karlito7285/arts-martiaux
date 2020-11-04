@@ -7,8 +7,8 @@
 /*COLORS
     -Defaut body text #fff
     -h1 : black
-    -h2 : black
-    -h3
+    -h2 : white
+    -h3 : black
 
     -button 
     -button : hover
@@ -27,6 +27,8 @@
 /*CSS DIRECTORY
     1 =CLOBAL
     2 =HEADER
+    3 =ART MARTIAUX
+    4 =CONTACT
 */
 
 /*GLOBAL
@@ -48,16 +50,33 @@ h2{
 h2 span:after{
     display : block;
     height: 2px;
-    background-color : green;
-    width: 100px;
+    background-color : #7c1d08;
+    width: 300px;
     content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+    background: linear-gradient(to left, #7c1d08,#e0d9d7);
 }
 h3{
     font-family: 'Permanent Marker', cursive;
     color: black;
 }
+h3:before{
+    display : block;
+    height: 2px;
+    background-color : #7c1d08;
+    width: 300px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+    background: linear-gradient(to left, #7c1d08,#e0d9d7);
+}
 p{
     font-family: 'Architects Daughter', cursive;
+}
+.title-presentation{
+    background: linear-gradient(to right, #7c1d08,#e0d9d7);
+    border-radius: 50px;
 }
 
 
@@ -69,11 +88,10 @@ header{
     height: 100vh;
     background-position: center;
     background-size: cover;
-    color: #fff;
 }
 
 .title{
-    background-color: #c82f0e;
+    background-color: #a3290d;
     border-radius: 50%;
     left: 0%;
     top: 200%;
@@ -102,5 +120,16 @@ header{
 /*CONTACT=============================================*/
 
 .contact{
+    background-color:#635f5e ;
+}
+
+/*PAGE DETAIL ART MARTIAUX============================*/
+
+.icone-combat{
+height: 40px;
+}
+
+/*PHOTO===============================================*/
+.photo{
     background-color: #635f5e;
 }
