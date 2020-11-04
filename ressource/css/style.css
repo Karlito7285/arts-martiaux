@@ -20,6 +20,8 @@
     -Defaut : 'Architects Daughter', cursive;
     -Subtitle
     -h1 : 'Permanent Marker', cursive
+    -h2 : 'Architects Daughter', cursive;
+    -h3 : 'Permanent Marker', cursive;
 */
 
 /*CSS DIRECTORY
@@ -30,7 +32,7 @@
 /*GLOBAL
 ======================================*/
 html{
-    background-color: #fff;
+    background-color:#635f5e ;
 }
 h1{
     font-family: 'Permanent Marker', cursive;
@@ -43,9 +45,21 @@ h2{
     text-align: center;
     margin-left: 100px;
 }
+h2 span:after{
+    display : block;
+    height: 2px;
+    background-color : green;
+    width: 100px;
+    content: " ";
+}
+h3{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
 p{
     font-family: 'Architects Daughter', cursive;
 }
+
 
 
 /*HEADER
@@ -61,23 +75,21 @@ header{
 .title{
     background-color: #c82f0e;
     border-radius: 50%;
-}
-.texttitle{
-    position: absolute;
     left: 0%;
-    top: 20%;
+    top: 200%;
 }
 .silhouette{
-    height: 40%;
-    width: auto;
+    height: 15px;
 }
 /*ART MARTIAUX======================================*/
 
 .arts-martiaux{
     background-color:#635f5e ;
-
+    background-position: center;
+    background-size: cover;
 }
 .image-art{
+    display: inline-block;
     position: relative;
 }
 .martial-text{
