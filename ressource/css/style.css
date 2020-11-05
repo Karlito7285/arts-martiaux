@@ -5,15 +5,17 @@
 */
 
 /*COLORS
-    -Defaut body text #fff
+    -Defaut body text black
     -h1 : black
-    -h2 : white
+    -h2 : #fff
     -h3 : black
+    -background : :#635f5e
+    -title separation : 7c1d08 to e0d9d7
 
-    -button 
-    -button : hover
 
-    -border : #c82f0e
+
+
+
 */
 
 /*FONTS
@@ -29,12 +31,17 @@
     2 =HEADER
     3 =ART MARTIAUX
     4 =CONTACT
+    5 =PAGE DETAIL ART MARTIAUX
+    6 =PHOTO
 */
 
 /*GLOBAL
 ======================================*/
 html{
     background-color:#635f5e ;
+}
+.cat{
+    margin-bottom: 40px;
 }
 h1{
     font-family: 'Permanent Marker', cursive;
@@ -73,6 +80,7 @@ h3:before{
 }
 p{
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 .title-presentation{
     background: linear-gradient(to right, #7c1d08,#e0d9d7);
@@ -96,8 +104,8 @@ header{
     left: 0%;
     top: 200%;
 }
-.silhouette{
-    height: 15px;
+.silhouette img{
+    height: 150px;
 }
 /*ART MARTIAUX======================================*/
 
@@ -115,7 +123,10 @@ header{
     z-index: 1;
     position: absolute;
     text-align: left;
-    bottom: 80%;
+    bottom: 75%;
+}
+input{
+    width: 100%;
 }
 /*CONTACT=============================================*/
 
@@ -128,7 +139,41 @@ header{
 .icone-combat{
 height: 40px;
 }
-
+/*PAGE JAPON===================================*/
+.japon{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*PAGE ASIE===================================*/
+.dragon{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*PAGE EUROPE=======================================*/
+.boxeur{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*PAGE AMERIQUE=======================================*/
+.capoeira{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*PAGE RSTE DU MONDE=======================================*/
+.earth{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 /*PHOTO===============================================*/
 .photo{
     background-color: #635f5e;
