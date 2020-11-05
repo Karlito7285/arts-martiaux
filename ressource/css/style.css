@@ -30,9 +30,8 @@
     1 =CLOBAL
     2 =HEADER
     3 =ART MARTIAUX
-    4 =CONTACT
-    5 =PAGE DETAIL ART MARTIAUX
-    6 =PHOTO
+    4 =PAGE DETAIL ART MARTIAUX
+    5 =PHOTO
 */
 
 /*GLOBAL
@@ -78,6 +77,11 @@ h3:before{
     margin-top: 10px;
     background: linear-gradient(to left, #7c1d08,#e0d9d7);
 }
+h4{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+
+}
 p{
     font-family: 'Architects Daughter', cursive;
     text-align: center;
@@ -101,11 +105,11 @@ header{
 .title{
     background-color: #a3290d;
     border-radius: 50%;
-    left: 0%;
-    top: 200%;
+    margin-top: 100px;
 }
 .silhouette img{
     height: 150px;
+    margin-top: 200px;
 }
 /*ART MARTIAUX======================================*/
 
@@ -117,23 +121,23 @@ header{
 .image-art{
     display: inline-block;
     position: relative;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image-art:hover{
+    opacity: .2;
 }
 .martial-text{
     background: rgba(0, 0, 0, 0.1);
     z-index: 1;
     position: absolute;
     text-align: left;
-    bottom: 75%;
+    bottom: 60%;
 }
 input{
     width: 100%;
 }
-/*CONTACT=============================================*/
-
-.contact{
-    background-color:#635f5e ;
-}
-
 /*PAGE DETAIL ART MARTIAUX============================*/
 
 .icone-combat{
@@ -176,5 +180,9 @@ height: 40px;
 }
 /*PHOTO===============================================*/
 .photo{
+    background-color: #635f5e;
+}
+/*TENUE===============================================*/
+.tenue{
     background-color: #635f5e;
 }
