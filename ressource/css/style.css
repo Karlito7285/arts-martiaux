@@ -24,6 +24,8 @@
     -h1 : 'Permanent Marker', cursive
     -h2 : 'Architects Daughter', cursive;
     -h3 : 'Permanent Marker', cursive;
+    -p : 'Architects Daughter', cursive;
+    -p rupture : 'Oswald', sans-serif;
 */
 
 /*CSS DIRECTORY
@@ -32,6 +34,7 @@
     3 =ART MARTIAUX
     4 =PAGE DETAIL ART MARTIAUX
     5 =PHOTO
+    6 =TENUE
 */
 
 /*GLOBAL
@@ -171,7 +174,7 @@ height: 40px;
     margin-right: auto;
     display: block;
 }
-/*PAGE RSTE DU MONDE=======================================*/
+/*PAGE RESTE DU MONDE=======================================*/
 .earth{
     width: 200px;
     margin-left: auto;
@@ -185,4 +188,35 @@ height: 40px;
 /*TENUE===============================================*/
 .tenue{
     background-color: #635f5e;
+}
+.tenue img{
+    height: 150px;
+    webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.tenue img:hover{
+    -webkit-transform: scale(0.75);
+	transform: scale(0.75);
+}
+td{
+    border: 1px solid black;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+table{
+    margin-left: 40px;
+    height: 800px;
+}
+.indisponible{
+    display: inline-block;
+    position: relative;
+    opacity: .4;
+}
+.rupture{
+    position: absolute;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+    margin: 50px 0 0 10px;
 }
